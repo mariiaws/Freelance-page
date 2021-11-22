@@ -576,6 +576,13 @@ footer {
   }
 }
 
+@media (max-width: 520px) {
+  .readers-photo{
+    justify-content: space-evenly;
+  }
+}
+
+
 @media (max-width: 374px) {
 
   .about-book-and-author {
