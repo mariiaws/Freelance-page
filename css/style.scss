@@ -249,6 +249,7 @@
   }
 }
 
+
 .text-about-author {
   margin-top: 27px;
 }
@@ -306,12 +307,13 @@ footer {
 
 .item-list {
   margin-bottom: 16px;
-
-  a {
-    color: #202020;
-    text-decoration: none;
-  }
 }
+
+.item-list a {
+  color: #202020;
+  text-decoration: none;
+}
+
 
 .to-top {
   width: 51px;
@@ -346,7 +348,7 @@ footer {
   }
 
   .des-format {
-    flex-basis: 49%;
+    flex-basis: 50%;
   }
 
   .img-readers {
@@ -404,7 +406,7 @@ footer {
   }
 
   .des-format {
-    flex-basis: 54.6%;
+    flex-basis: 55%;
   }
 
   .price-book {
@@ -493,7 +495,7 @@ footer {
   }
 
 
- .sale-book img {
+  .sale-book img {
     width: 100%;
     height: 95%;
   }
@@ -535,15 +537,13 @@ footer {
     padding: 54px 44px;
   }
 
- .about-author img {
+  .about-author img {
     width: 64px;
     height: 64px;
   }
 
-  .name-author {
-    a {
+  .name-author a {
       font-size: 14px;
-    }
   }
 
   .text-about-author {
@@ -555,10 +555,8 @@ footer {
     margin-bottom: 36px;
   }
 
-  .price-book {
-    a {
-      display: none;
-    }
+  .price-book a {
+    display: none;
   }
 }
 
@@ -585,7 +583,7 @@ footer {
   }
 
   .sale-book img {
-      width: 100%;
+    width: 100%;
   }
 
   .sale {
@@ -611,7 +609,7 @@ footer {
   }
 
   .price-book img {
-      margin-left: 28px;
+    margin-left: 28px;
   }
 
   .read {

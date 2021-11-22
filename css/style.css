@@ -282,6 +282,7 @@ footer {
 .item-list {
   margin-bottom: 16px;
 }
+
 .item-list a {
   color: #202020;
   text-decoration: none;
@@ -319,7 +320,7 @@ footer {
   }
 
   .des-format {
-    flex-basis: 49%;
+    flex-basis: 50%;
   }
 
   .img-readers {
@@ -375,7 +376,7 @@ footer {
   }
 
   .des-format {
-    flex-basis: 54.6%;
+    flex-basis: 55%;
   }
 
   .price-book {
