@@ -409,11 +409,12 @@ footer {
     font-size: 24px;
   }
 
-  .des-format {
-    flex-basis: 54.6%;
-  }
   .description {
     margin-bottom: 39px;
+  }
+
+  .des-format {
+    flex-basis: 54.6%;
   }
 
   .price-book {
@@ -423,6 +424,11 @@ footer {
   .read, .buy {
     padding: 20px 40px;
   }
+
+  .read{
+    margin-right: 10px;
+  }
+
 
   .title-book {
     font-size: 24px;
@@ -446,7 +452,7 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .header-container, .about, .many-readers, .about-company,
   .text-cover {
     max-width: 560px;
